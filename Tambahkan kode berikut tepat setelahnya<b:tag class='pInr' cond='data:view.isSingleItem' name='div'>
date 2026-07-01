@@ -1,0 +1,13 @@
+<b:if cond='data:view.isPost'>
+  <!--[ Safelink Countdown Timer ]-->
+  <div class='aSlT' id='aSlCnt'>
+    <div class='aSlP'>
+      <div class='aSlW'/>
+      <span class='aSlC'>Please wait <span class='aSlCd'>0</span> seconds...</span>
+    </div>
+    <div class='aScr'>
+      <div class='aScrH'>Scroll Down and click on <span class='hglt'>Go to Link</span> for destination</div>
+      <div class='aScrD'><svg class='line' viewbox='0 0 24 24'><path d='M22 11.07V12a10 10 0 1 1-5.93-9.14'/><polyline points='23 3 12 14 9 11'/></svg>Congrats! Link is Generated</div>
+    </div>
+  </div>
+</b:if>
